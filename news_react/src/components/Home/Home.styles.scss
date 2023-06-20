@@ -1,0 +1,37 @@
+.card__container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    padding: 0.8rem;
+    gap: 10px;
+    padding: 0.8rem;
+    }
+.card{
+  margin-bottom: 1rem;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0.3rem 0.5rem 0.8rem black;
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  
+  
+  
+    &__image{
+      align-items: center;
+      padding: 0.5rem;
+      border-radius: 1.5rem;
+      object-fit: cover;
+    }
+&__content{
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+
+} 
+&__source{
+  color: black;
+  text-align: center;
+}
+}

@@ -1,0 +1,16 @@
+.menu-nav{
+    background-color: black;
+    &__list{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+}
+&__list-item{
+    display: inline-block;
+    padding: 1.5rem;
+}
+&__link{
+    display: block;
+    text-decoration: none;
+    }
+}
