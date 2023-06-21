@@ -1,13 +1,15 @@
-const docs = (state, action) => {
+const AppReducer = (state, action) => {
     switch (action.type) {
-        case "GET_DOCS":
-            return {
-                ...state,
-                docs: action.payload,
-            };
-            default:
-                return state;
-            }
+      case "GET_DOCS":
+        return {
+          ...state,
+          articles: action.payload,
+          loading: false
         };
-
-export default docs;
+      default:
+        return state;
+    }
+  };
+  
+  export default AppReducer;
+  
